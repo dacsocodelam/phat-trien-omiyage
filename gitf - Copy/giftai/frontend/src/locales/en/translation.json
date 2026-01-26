@@ -1,0 +1,308 @@
+{
+  "header": {
+    "home": "Home",
+    "howItWorks": "How It Works",
+    "blog": "Blog",
+    "about": "About Us",
+    "findGift": "Find Gift Now"
+  },
+  "hero": {
+    "title": "GiftAI",
+    "subtitle": "Your Personal Gift Expert",
+    "description": "🎁 Don't let birthdays become a nightmare!",
+    "findPerfect": "Find the perfect gift in",
+    "seconds": "60 seconds",
+    "withAI": "with AI",
+    "features": {
+      "busy": "Busy? No problem!",
+      "aiUnderstands": "AI understands",
+      "perfect": "100% Perfect"
+    }
+  },
+  "quiz": {
+    "title": "Start Gift Search!",
+    "subtitle": "Just 5 simple pieces of information, and AI will suggest gifts that will definitely make your loved ones happy",
+    "steps": {
+      "relationship": {
+        "question": "🤝 Your relationship?",
+        "subtitle": "Tell us about the recipient",
+        "placeholder": "e.g., partner, wife, mother, best friend, colleague..."
+      },
+      "age": {
+        "question": "🎂 Recipient's age?",
+        "subtitle": "We'll suggest age-appropriate gifts",
+        "placeholder": "e.g., 28"
+      },
+      "gender": {
+        "question": "⚧ Select gender",
+        "subtitle": "For more appropriate gift suggestions",
+        "female": "👩 Female",
+        "male": "👨 Male"
+      },
+      "hobby": {
+        "question": "🎨 Hobbies and interests?",
+        "subtitle": "Tell us what they like",
+        "placeholder": "e.g., travel, reading, yoga, cooking, technology, fashion..."
+      },
+      "occasion": {
+        "question": "🎉 What's the occasion?",
+        "subtitle": "Tell us about the special day",
+        "placeholder": "e.g., birthday, Valentine's, anniversary..."
+      },
+      "budget": {
+        "question": "💰 Your budget?",
+        "subtitle": "Enter amount in yen",
+        "placeholder": "e.g., 50000"
+      },
+      "styleImage": {
+        "question": "📸 Style Image (Optional)",
+        "subtitle": "Upload a photo of their fashion or style preferences",
+        "upload": "Upload Image",
+        "uploadImage": "Upload Image",
+        "changeImage": "Click to change image",
+        "dragDrop": "Or drag & drop image here",
+        "change": "Click to change image",
+        "formats": "JPG, PNG (Max 5MB)",
+        "aiAnalysis": "⚡ AI will analyze the image for better gift suggestions"
+      }
+    },
+    "progress": {
+      "step": "Step",
+      "complete": "Complete"
+    },
+    "buttons": {
+      "back": "← Back",
+      "next": "Next →",
+      "complete": "🎯 Complete!",
+      "processing": "Processing..."
+    }
+  },
+  "loading": {
+    "title": "✨ AI is working its magic for you!",
+    "analyzing": "🔍 Analyzing your information...",
+    "searching": "🎯 AI searching thousands of products...",
+    "comparing": "💡 Comparing and evaluating suitability...",
+    "customizing": "✨ Customizing to personal preferences...",
+    "preparing": "🎁 Done! Preparing amazing results...",
+    "funFact": {
+      "title": "💡 Did you know?",
+      "description": "Our AI analyzes over 10,000 products and 50+ psychological factors to find the perfect gift for you!"
+    }
+  },
+  "results": {
+    "title": "AI Expert Suggestions",
+    "subtitle": "🧠 Analysis based on psychology and data science 💡",
+    "aiAnalyzed": "🎯 AI analyzed and found the perfect gifts for you",
+    "actions": {
+      "like": "Like this suggestion",
+      "regenerate": "Create new suggestion",
+      "copy": "Copy suggestion",
+      "createCard": "🎴 Create Digital Card"
+    },
+    "confidence": {
+      "aiAccuracy": "AI Accuracy",
+      "analysisDepth": "Analysis Depth",
+      "matchScore": "Match Score"
+    },
+    "status": {
+      "completed": "✓ Verified",
+      "awesome": "👏 Awesome!",
+      "thanks": "💖 Thank you!"
+    }
+  },
+  "footer": {
+    "description": "Your personal gift expert. Transform gift-giving from pressure to pleasure.",
+    "navigation": "Navigation",
+    "giftCategories": "Gift Categories",
+    "support": "Support",
+    "faq": "FAQ",
+    "contact": "Contact Us",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "affiliate": "Affiliate",
+    "contactTitle": "Contact",
+    "location": "Okuizumo, Shimane Prefecture, Japan",
+    "copyright": "© 2026 GiftAI. All rights reserved.",
+    "madeWith": "Made with ❤️ in Japan",
+    "about": "About GiftAI",
+    "aboutText": "AI-powered perfect gift finder",
+    "quickLinks": "Quick Links",
+    "howItWorks": "How It Works",
+    "blog": "Gift Ideas",
+    "followUs": "Follow Us"
+  },
+  "howItWorks": {
+    "title": "How Does GiftAI Work?",
+    "subtitle": "From simple information to the perfect gift - in just 4 easy steps",
+    "benefits": {
+      "title": "Why Choose GiftAI?",
+      "subtitle": "Outstanding advantages of using our service",
+      "speed": {
+        "title": "Super Fast",
+        "description": "Get perfect gift suggestions in just 60 seconds"
+      },
+      "intelligent": {
+        "title": "Intelligent",
+        "description": "AI analyzes psychology and trends to make accurate suggestions"
+      },
+      "personalized": {
+        "title": "Personalized",
+        "description": "Each suggestion is customized individually"
+      }
+    },
+    "cta": {
+      "title": "Are you ready to find the perfect gift?",
+      "button": "🎯 Start Now"
+    },
+    "steps": {
+      "step1": {
+        "title": "Enter Information",
+        "description": "Provide recipient details: age, gender, hobbies, relationship, budget",
+        "details": [
+          "Age & Gender",
+          "Hobbies & Personality",
+          "Your Relationship",
+          "Budget Range",
+          "Special Occasion"
+        ]
+      },
+      "step2": {
+        "title": "AI Analysis",
+        "description": "Smart AI system analyzes thousands of products and trends to find the best suggestions",
+        "details": [
+          "Psychology Analysis",
+          "Trend Comparison",
+          "Budget Matching",
+          "Occasion Filtering",
+          "Compatibility Score"
+        ]
+      },
+      "step3": {
+        "title": "Receive Suggestions",
+        "description": "Get AI-curated gift list with explanations of why each gift is perfect for your recipient",
+        "details": [
+          "Personalized Suggestions",
+          "Reason Explanations",
+          "Multiple Options",
+          "Purchase Links",
+          "Match Rating"
+        ]
+      },
+      "step4": {
+        "title": "Premium Services",
+        "description": "Choose additional services like gift wrapping, handwritten cards, express delivery for the perfect surprise",
+        "details": [
+          "Premium Gift Wrap",
+          "Handwritten Card",
+          "Express Delivery",
+          "Scheduled Delivery",
+          "Surprise Service"
+        ]
+      }
+    }
+  },
+  "blog": {
+    "title": "Gift-Giving Secrets from Experts",
+    "subtitle": "Discover useful articles on gift art, psychology, and latest trends",
+    "featured": "Featured",
+    "readMore": "Read More →",
+    "viewAll": "📖 View All Articles",
+    "posts": [
+      {
+        "title": "Top 10 Birthday Gifts to Impress Her",
+        "excerpt": "Discover unique and meaningful gift ideas to make her birthday special...",
+        "category": "Birthday",
+        "readTime": "5 min read",
+        "date": "July 15, 2026"
+      },
+      {
+        "title": "Valentine's Gifts for Lovers: Classic to Modern",
+        "excerpt": "How to choose the perfect Valentine's gift based on your partner's personality and preferences...",
+        "category": "Valentine's",
+        "readTime": "7 min read",
+        "date": "July 10, 2026"
+      },
+      {
+        "title": "Gifts for Mom: Most Meaningful in 2026",
+        "excerpt": "Practical and loving gift list for the most important woman...",
+        "category": "Family",
+        "readTime": "6 min read",
+        "date": "July 5, 2026"
+      },
+      {
+        "title": "Psychology of Gift Selection: Secrets from Experts",
+        "excerpt": "Understanding recipient psychology to choose gifts that touch hearts...",
+        "category": "Psychology",
+        "readTime": "8 min read",
+        "date": "July 1, 2026"
+      },
+      {
+        "title": "Gifts for Colleagues: Balancing Professional and Friendly",
+        "excerpt": "Smart ideas while maintaining professionalism when giving gifts to colleagues...",
+        "category": "Workplace",
+        "readTime": "4 min read",
+        "date": "June 28, 2026"
+      },
+      {
+        "title": "2026 Gift Trends: From Technology to Experiences",
+        "excerpt": "Latest gift trends in 2026 from tech gadgets to unique experiences...",
+        "category": "Trends",
+        "readTime": "6 min read",
+        "date": "June 25, 2026"
+      }
+    ],
+    "newsletter": {
+      "title": "🔔 Get Latest Gift-Giving Tips",
+      "description": "Weekly useful tips on gift art and latest gift trends delivered to you",
+      "placeholder": "Enter your email address...",
+      "subscribe": "Subscribe"
+    }
+  },
+  "about": {
+    "title": "About Us",
+    "subtitle": "Meet the passionate team behind GiftAI",
+    "team": [
+      {
+        "name": "Bom",
+        "role": "Frontend, Backend, Ideas",
+        "bio": "Passionate developer and the brain behind GiftAI. Always exploring new technologies to provide users with the best experience."
+      },
+      {
+        "name": "Dat",
+        "role": "Design, Ideas",
+        "bio": "Creative designer in charge of GiftAI's aesthetics. Passionate about creating functional and beautiful interfaces."
+      }
+    ]
+  },
+  "giftFinder": {
+    "quizMode": "Quiz Mode",
+    "formMode": "Form Mode",
+    "formModeComingSoon": "Traditional form mode is coming soon. Try quiz mode for now!",
+    "styleAnalysis": "Style Analysis Results"
+  },
+  "whyChooseUs": {
+    "title": "Why Choose GiftAI?",
+    "smartAI": {
+      "title": "Smart AI",
+      "description": "Analyzes thousands of products to find the perfect gift"
+    },
+    "fast": {
+      "title": "Super Fast",
+      "description": "Get the best gift suggestions in just 60 seconds"
+    },
+    "guarantee": {
+      "title": "Satisfaction Guarantee",
+      "description": "Gifts chosen based on science and emotion"
+    }
+  },
+  "common": {
+    "loading": "Loading...",
+    "error": "An error occurred",
+    "tryAgain": "Please try again",
+    "close": "Close",
+    "save": "Save",
+    "cancel": "Cancel",
+    "confirm": "Confirm",
+    "graduationProject": "GRADUATION PROJECT • SHIMANE IT DESIGN COLLEGE •"
+  }
+}

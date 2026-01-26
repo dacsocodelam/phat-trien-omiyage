@@ -1,0 +1,308 @@
+{
+  "header": {
+    "home": "Trang chủ",
+    "howItWorks": "Cách hoạt động",
+    "blog": "Blog",
+    "about": "Về chúng tôi",
+    "findGift": "Tìm quà ngay"
+  },
+  "hero": {
+    "title": "GiftAI",
+    "subtitle": "Chuyên gia tư vấn quà tặng của bạn",
+    "description": "🎁 Đừng để sinh nhật trở thành cơn ác mộng!",
+    "findPerfect": "Tìm món quà hoàn hảo trong",
+    "seconds": "60 giây",
+    "withAI": "với AI",
+    "features": {
+      "busy": "Bận rộn? Không sao!",
+      "aiUnderstands": "AI hiểu bạn",
+      "perfect": "100% Hoàn hảo"
+    }
+  },
+  "quiz": {
+    "title": "Bắt đầu tìm quà!",
+    "subtitle": "Chỉ cần 5 thông tin đơn giản, AI sẽ gợi ý những món quà chắc chắn làm người thân yêu của bạn hạnh phúc",
+    "steps": {
+      "relationship": {
+        "question": "🤝 Mối quan hệ của bạn?",
+        "subtitle": "Cho chúng tôi biết về người nhận",
+        "placeholder": "vd: bạn trai, vợ, mẹ, bạn thân, đồng nghiệp..."
+      },
+      "age": {
+        "question": "🎂 Tuổi của người nhận?",
+        "subtitle": "Chúng tôi sẽ gợi ý quà phù hợp với độ tuổi",
+        "placeholder": "vd: 28"
+      },
+      "gender": {
+        "question": "⚧ Chọn giới tính",
+        "subtitle": "Để có gợi ý quà phù hợp hơn",
+        "female": "👩 Nữ",
+        "male": "👨 Nam"
+      },
+      "hobby": {
+        "question": "🎨 Sở thích và quan tâm?",
+        "subtitle": "Cho chúng tôi biết họ thích gì",
+        "placeholder": "vd: du lịch, đọc sách, yoga, nấu ăn, công nghệ, thời trang..."
+      },
+      "occasion": {
+        "question": "🎉 Dịp gì?",
+        "subtitle": "Cho biết về ngày đặc biệt",
+        "placeholder": "vd: sinh nhật, Valentine, kỷ niệm..."
+      },
+      "budget": {
+        "question": "💰 Ngân sách của bạn?",
+        "subtitle": "Nhập số tiền (yên Nhật)",
+        "placeholder": "vd: 50000"
+      },
+      "styleImage": {
+        "question": "📸 Ảnh phong cách (Tùy chọn)",
+        "subtitle": "Tải lên ảnh về thời trang hoặc sở thích phong cách của họ",
+        "upload": "Tải ảnh lên",
+        "uploadImage": "Tải ảnh lên",
+        "changeImage": "Nhấp để thay đổi ảnh",
+        "dragDrop": "Hoặc kéo thả ảnh vào đây",
+        "change": "Nhấp để thay đổi ảnh",
+        "formats": "JPG, PNG (Tối đa 5MB)",
+        "aiAnalysis": "⚡ AI sẽ phân tích ảnh để gợi ý quà tốt hơn"
+      }
+    },
+    "progress": {
+      "step": "Bước",
+      "complete": "Hoàn thành"
+    },
+    "buttons": {
+      "back": "← Quay lại",
+      "next": "Tiếp →",
+      "complete": "🎯 Hoàn tất!",
+      "processing": "Đang xử lý..."
+    }
+  },
+  "loading": {
+    "title": "✨ AI đang tạo phép màu cho bạn!",
+    "analyzing": "🔍 Đang phân tích thông tin của bạn...",
+    "searching": "🎯 AI đang tìm kiếm hàng ngàn sản phẩm...",
+    "comparing": "💡 Đang so sánh và đánh giá mức độ phù hợp...",
+    "customizing": "✨ Đang tùy chỉnh theo sở thích cá nhân...",
+    "preparing": "🎁 Hoàn tất! Đang chuẩn bị kết quả tuyệt vời...",
+    "funFact": {
+      "title": "💡 Bạn có biết?",
+      "description": "AI của chúng tôi phân tích hơn 10,000 sản phẩm và 50+ yếu tố tâm lý để tìm món quà hoàn hảo cho bạn!"
+    }
+  },
+  "results": {
+    "title": "Gợi ý từ Chuyên gia AI",
+    "subtitle": "🧠 Phân tích dựa trên tâm lý học và khoa học dữ liệu 💡",
+    "aiAnalyzed": "🎯 AI đã phân tích và tìm được những món quà hoàn hảo cho bạn",
+    "actions": {
+      "like": "Thích gợi ý này",
+      "regenerate": "Tạo gợi ý mới",
+      "copy": "Sao chép gợi ý",
+      "createCard": "🎴 Tạo Thiệp Kỹ Thuật Số"
+    },
+    "confidence": {
+      "aiAccuracy": "Độ chính xác AI",
+      "analysisDepth": "Độ sâu phân tích",
+      "matchScore": "Điểm phù hợp"
+    },
+    "status": {
+      "completed": "✓ Đã xác nhận",
+      "awesome": "👏 Tuyệt vời!",
+      "thanks": "💖 Cảm ơn bạn!"
+    }
+  },
+  "footer": {
+    "description": "Chuyên gia tặng quà cá nhân của bạn. Biến việc tặng quà từ áp lực thành niềm vui.",
+    "navigation": "Điều hướng",
+    "giftCategories": "Danh mục quà tặng",
+    "support": "Hỗ trợ",
+    "faq": "Câu hỏi thường gặp",
+    "contact": "Liên hệ",
+    "privacy": "Chính sách bảo mật",
+    "terms": "Điều khoản dịch vụ",
+    "affiliate": "Đối tác",
+    "contactTitle": "Liên hệ",
+    "location": "Okuizumo, tỉnh Shimane, Nhật Bản",
+    "copyright": "© 2026 GiftAI. Bảo lưu mọi quyền.",
+    "madeWith": "Được tạo với ❤️ tại Nhật Bản",
+    "about": "Về GiftAI",
+    "aboutText": "Tìm món quà hoàn hảo bằng AI",
+    "quickLinks": "Liên kết nhanh",
+    "howItWorks": "Cách hoạt động",
+    "blog": "Ý tưởng quà tặng",
+    "followUs": "Theo dõi chúng tôi"
+  },
+  "howItWorks": {
+    "title": "GiftAI hoạt động như thế nào?",
+    "subtitle": "Từ thông tin đơn giản đến món quà hoàn hảo - chỉ với 4 bước dễ dàng",
+    "benefits": {
+      "title": "Tại sao chọn GiftAI?",
+      "subtitle": "Ưu điểm vượt trội khi sử dụng dịch vụ của chúng tôi",
+      "speed": {
+        "title": "Siêu nhanh",
+        "description": "Nhận gợi ý quà tặng hoàn hảo chỉ trong 60 giây"
+      },
+      "intelligent": {
+        "title": "Thông minh",
+        "description": "AI phân tích tâm lý và xu hướng để đưa ra gợi ý chính xác"
+      },
+      "personalized": {
+        "title": "Cá nhân hóa",
+        "description": "Mỗi gợi ý được tùy chỉnh riêng cho từng người"
+      }
+    },
+    "cta": {
+      "title": "Bạn đã sẵn sàng tìm món quà hoàn hảo chưa?",
+      "button": "🎯 Bắt đầu ngay"
+    },
+    "steps": {
+      "step1": {
+        "title": "Nhập thông tin",
+        "description": "Cung cấp thông tin người nhận: tuổi, giới tính, sở thích, mối quan hệ, ngân sách",
+        "details": [
+          "Tuổi & Giới tính",
+          "Sở thích & Tính cách",
+          "Mối quan hệ",
+          "Ngân sách dự kiến",
+          "Dịp đặc biệt"
+        ]
+      },
+      "step2": {
+        "title": "Phân tích AI",
+        "description": "Hệ thống AI thông minh phân tích hàng nghìn sản phẩm và xu hướng để tìm gợi ý tốt nhất",
+        "details": [
+          "Phân tích tâm lý",
+          "So sánh xu hướng",
+          "Đối chiếu ngân sách",
+          "Lọc theo dịp",
+          "Tính điểm phù hợp"
+        ]
+      },
+      "step3": {
+        "title": "Nhận gợi ý",
+        "description": "Nhận danh sách quà được AI chọn lọc kèm lý do tại sao mỗi món quà phù hợp với người nhận",
+        "details": [
+          "Gợi ý cá nhân hóa",
+          "Giải thích lý do",
+          "Nhiều lựa chọn",
+          "Link mua hàng",
+          "Đánh giá độ phù hợp"
+        ]
+      },
+      "step4": {
+        "title": "Dịch vụ cao cấp",
+        "description": "Chọn thêm dịch vụ như gói quà đẹp, thiệp viết tay, giao hàng nhanh để tạo bất ngờ hoàn hảo",
+        "details": [
+          "Gói quà cao cấp",
+          "Thiệp viết tay",
+          "Giao hàng nhanh",
+          "Chọn giờ giao",
+          "Dịch vụ bất ngờ"
+        ]
+      }
+    }
+  },
+  "blog": {
+    "title": "Bí quyết tặng quà từ chuyên gia",
+    "subtitle": "Khám phá các bài viết hữu ích về nghệ thuật tặng quà, tâm lý học và xu hướng mới nhất",
+    "featured": "Nổi bật",
+    "readMore": "Đọc tiếp →",
+    "viewAll": "📖 Xem tất cả bài viết",
+    "posts": [
+      {
+        "title": "Top 10 quà sinh nhật khiến cô ấy mê mẩn",
+        "excerpt": "Khám phá những ý tưởng quà tặng độc đáo và ý nghĩa để sinh nhật cô ấy trở nên đặc biệt...",
+        "category": "Sinh nhật",
+        "readTime": "5 phút đọc",
+        "date": "15 tháng 7, 2026"
+      },
+      {
+        "title": "Quà Valentine cho người yêu: Từ cổ điển đến hiện đại",
+        "excerpt": "Cách chọn món quà Valentine hoàn hảo dựa trên tính cách và sở thích của đối phương...",
+        "category": "Valentine",
+        "readTime": "7 phút đọc",
+        "date": "10 tháng 7, 2026"
+      },
+      {
+        "title": "Quà tặng cho mẹ: Ý nghĩa nhất năm 2026",
+        "excerpt": "Danh sách quà tặng thiết thực và đầy yêu thương cho người phụ nữ quan trọng nhất...",
+        "category": "Gia đình",
+        "readTime": "6 phút đọc",
+        "date": "5 tháng 7, 2026"
+      },
+      {
+        "title": "Tâm lý học chọn quà: Bí quyết từ chuyên gia",
+        "excerpt": "Hiểu tâm lý người nhận để chọn món quà chạm đến trái tim...",
+        "category": "Tâm lý học",
+        "readTime": "8 phút đọc",
+        "date": "1 tháng 7, 2026"
+      },
+      {
+        "title": "Quà tặng đồng nghiệp: Cân bằng chuyên nghiệp và thân thiện",
+        "excerpt": "Ý tưởng thông minh khi tặng quà đồng nghiệp trong các dịp đặc biệt...",
+        "category": "Công việc",
+        "readTime": "4 phút đọc",
+        "date": "28 tháng 6, 2026"
+      },
+      {
+        "title": "Xu hướng quà tặng 2026: Từ công nghệ đến trải nghiệm",
+        "excerpt": "Cập nhật xu hướng quà tặng mới nhất 2026 từ gadget công nghệ đến trải nghiệm độc đáo...",
+        "category": "Xu hướng",
+        "readTime": "6 phút đọc",
+        "date": "25 tháng 6, 2026"
+      }
+    ],
+    "newsletter": {
+      "title": "🔔 Nhận mẹo tặng quà mới nhất",
+      "description": "Mỗi tuần, chúng tôi gửi bạn những mẹo hữu ích về nghệ thuật tặng quà và xu hướng quà tặng mới nhất",
+      "placeholder": "Nhập địa chỉ email của bạn...",
+      "subscribe": "Đăng ký"
+    }
+  },
+  "about": {
+    "title": "Về chúng tôi",
+    "subtitle": "Gặp gỡ đội ngũ đam mê đằng sau GiftAI",
+    "team": [
+      {
+        "name": "Bom",
+        "role": "Frontend, Backend, Ý tưởng",
+        "bio": "Nhà phát triển đam mê và bộ não đằng sau GiftAI. Luôn khám phá công nghệ mới để mang đến trải nghiệm tốt nhất cho người dùng."
+      },
+      {
+        "name": "Dat",
+        "role": "Thiết kế, Ý tưởng",
+        "bio": "Nhà thiết kế sáng tạo phụ trách thẩm mỹ của GiftAI. Đam mê tạo ra giao diện đẹp và có chức năng."
+      }
+    ]
+  },
+  "giftFinder": {
+    "quizMode": "Chế độ Quiz",
+    "formMode": "Chế độ Biểu mẫu",
+    "formModeComingSoon": "Chế độ biểu mẫu truyền thống sắp ra mắt. Hãy thử chế độ quiz ngay!",
+    "styleAnalysis": "Kết quả phân tích phong cách"
+  },
+  "whyChooseUs": {
+    "title": "Tại sao chọn GiftAI?",
+    "smartAI": {
+      "title": "AI Thông minh",
+      "description": "Phân tích hàng nghìn sản phẩm để tìm món quà hoàn hảo"
+    },
+    "fast": {
+      "title": "Siêu nhanh",
+      "description": "Nhận gợi ý quà tốt nhất chỉ trong 60 giây"
+    },
+    "guarantee": {
+      "title": "Bảo đảm hài lòng",
+      "description": "Quà tặng được chọn dựa trên khoa học và cảm xúc"
+    }
+  },
+  "common": {
+    "loading": "Đang tải...",
+    "error": "Đã xảy ra lỗi",
+    "tryAgain": "Vui lòng thử lại",
+    "close": "Đóng",
+    "save": "Lưu",
+    "cancel": "Hủy",
+    "confirm": "Xác nhận",
+    "graduationProject": "DỰ ÁN TỐT NGHIỆP • TRƯỜNG SHIMANE IT •"
+  }
+}
