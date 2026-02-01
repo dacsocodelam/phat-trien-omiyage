@@ -261,6 +261,10 @@ export default function Header() {
                   {t("header.home")}
                 </NeuralLink>
 
+                <NeuralLink href="/omiyage" emoji="🗾">
+                  お土産
+                </NeuralLink>
+
                 <NeuralLink href="#how-it-works" emoji="⚙️">
                   {t("header.howItWorks")}
                 </NeuralLink>
@@ -393,6 +397,14 @@ export default function Header() {
                 onClick={() => setIsMenuOpen(false)}
               >
                 🏠 {t("header.home")}
+              </a>
+
+              <a
+                href="/omiyage"
+                className="flex items-center gap-3 px-4 py-3 text-slate-200 hover:text-[#FFD700] hover:bg-white/5 rounded-xl transition-all duration-300"
+                onClick={() => setIsMenuOpen(false)}
+              >
+                🗾 Omiyage
               </a>
 
               <a

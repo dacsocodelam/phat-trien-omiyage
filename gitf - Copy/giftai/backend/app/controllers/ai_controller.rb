@@ -123,7 +123,7 @@ class AiController < ApplicationController
     PROMPT
 
     begin
-      uri = URI("https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=#{api_key}")
+      uri = URI("https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro:generateContent?key=#{api_key}")
       
       http = Net::HTTP.new(uri.host, uri.port)
       http.use_ssl = true
