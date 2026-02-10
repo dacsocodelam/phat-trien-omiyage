@@ -15,7 +15,12 @@ const pressStart2P = Press_Start_2P({
   variable: "--font-press-start",
 });
 
-export const metadata: Metadata = { title: "PresentoAI" };
+export const metadata: Metadata = {
+  title: "PresentoAI",
+  icons: {
+    icon: "/img/favicon.png",
+  },
+};
 
 export default function RootLayout({
   children,
