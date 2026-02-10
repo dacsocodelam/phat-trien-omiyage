@@ -29,7 +29,7 @@ gem "thruster", require: false
 # Use Rack CORS for handling Cross-Origin Resource Sharing (CORS), making cross-origin Ajax possible
 gem "rack-cors"
 
-# gem 'gemini-ai', '~> 4.3.0'  # Gem cho Gemini API - Tạm comment do lỗi libcurl trên Windows
+gem 'gemini-ai', '~> 4.3.0'
 gem 'dotenv-rails', groups: [:development, :test]  # Để quản lý env variables
 gem 'certified'
 
