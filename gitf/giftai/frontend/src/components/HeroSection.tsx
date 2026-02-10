@@ -1,0 +1,157 @@
+"use client";
+import { useState, useEffect } from "react";
+import { useTranslation } from "react-i18next";
+
+export default function HeroSection() {
+  const { t, ready } = useTranslation();
+  const [isMounted, setIsMounted] = useState(false);
+  const [particles, setParticles] = useState<
+    Array<{
+      id: number;
+      left: number;
+      top: number;
+      delay: number;
+      duration: number;
+    }>
+  >([]);
+
+  // Generate particles only on client-side after mount
+  useEffect(() => {
+    setIsMounted(true);
+    setParticles(
+      Array.from({ length: 20 }, (_, i) => ({
+        id: i,
+        left: Math.random() * 100,
+        top: Math.random() * 100,
+        delay: Math.random() * 5,
+        duration: 5 + Math.random() * 10,
+      })),
+    );
+  }, []);
+
+  // Wait for both mount and i18n to be ready to prevent hydration mismatch
+  if (!isMounted || !ready) {
+    return (
+      <section
+        id="home"
+        className="relative overflow-hidden pt-20 pb-32"
+      ></section>
+    );
+  }
+
+  return (
+    <section id="home" className="relative overflow-hidden pt-20 pb-32">
+      {/* Floating Particles - Extended to connect with content below */}
+      {isMounted && (
+        <div
+          className="absolute inset-0 overflow-visible pointer-events-none z-0"
+          style={{ height: "150vh" }}
+        >
+          {particles.map((particle) => (
+            <div
+              key={particle.id}
+              className="absolute w-2 h-2 bg-[#FFD700]/30 rounded-full animate-float-particles"
+              style={{
+                left: `${particle.left}%`,
+                top: `${particle.top}%`,
+                animationDelay: `${particle.delay}s`,
+                animationDuration: `${particle.duration}s`,
+              }}
+            />
+          ))}
+        </div>
+      )}
+
+      <div className="container mx-auto px-4 py-8 text-center relative z-10">
+        <div className="max-w-4xl mx-auto">
+          {/* Logo Animation */}
+          <div className="flex justify-center items-center gap-4 mb-6 animate-float-up-down">
+            <div className="relative">
+              <svg
+                width="48"
+                height="48"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+                className="text-[#FFD700] animate-spin-slow"
+              >
+                <path
+                  d="M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 8.26L12 2Z"
+                  fill="currentColor"
+                />
+              </svg>
+              <div className="absolute -top-1 -right-1 w-4 h-4 bg-[#FFD700] rounded-full animate-heartbeat"></div>
+            </div>
+            <h1
+              className="text-5xl md:text-6xl font-bold bg-gradient-to-r from-[#FFD700] to-[#FFA500] bg-clip-text text-transparent animate-neon-glow"
+              suppressHydrationWarning
+            >
+              {t("hero.title")}
+            </h1>
+          </div>
+          <h2
+            className="text-2xl md:text-3xl font-semibold mb-4 text-[#FFD700] animate-blur-in"
+            style={{ animationDelay: "0.2s" }}
+            suppressHydrationWarning
+          >
+            {t("hero.subtitle")}
+          </h2>
+          <p
+            className="text-xl md:text-2xl mb-8 text-gray-200 max-w-3xl mx-auto leading-relaxed animate-text-reveal"
+            style={{ animationDelay: "0.4s" }}
+            suppressHydrationWarning
+          >
+            <span className="inline-block animate-wave">🎁</span>{" "}
+            <strong>{t("hero.description")}</strong>
+            <br />
+            {t("hero.withAI")}
+            <span className="text-[#FFD700] font-bold animate-pulsate mx-2">
+              {t("hero.seconds")}
+            </span>
+            {t("hero.findPerfect")}
+          </p>
+          <div
+            className="bg-white/10 backdrop-blur-sm rounded-2xl p-6 max-w-2xl mx-auto mb-8 animate-slide-in-left"
+            style={{ animationDelay: "0.6s" }}
+          >
+            <div className="flex items-center justify-center gap-4 text-sm md:text-base flex-wrap">
+              <div
+                className="flex items-center gap-2 animate-fade-in"
+                style={{ animationDelay: "0.8s" }}
+              >
+                <div className="w-3 h-3 bg-green-400 rounded-full animate-heartbeat"></div>
+                <span suppressHydrationWarning>{t("hero.features.busy")}</span>
+              </div>
+              <div
+                className="flex items-center gap-2 animate-fade-in"
+                style={{ animationDelay: "1s" }}
+              >
+                <div className="w-3 h-3 bg-blue-400 rounded-full animate-heartbeat"></div>
+                <span suppressHydrationWarning>
+                  {t("hero.features.aiUnderstands")}
+                </span>
+              </div>
+              <div
+                className="flex items-center gap-2 animate-fade-in"
+                style={{ animationDelay: "1.2s" }}
+              >
+                <div className="w-3 h-3 bg-yellow-400 rounded-full animate-heartbeat"></div>
+                <span suppressHydrationWarning>
+                  {t("hero.features.perfect")}
+                </span>
+              </div>
+            </div>
+          </div>
+          <a
+            href="#gift-finder"
+            className="inline-block bg-gradient-to-r from-[#FFD700] to-[#FFA500] text-[#001f3f] px-8 py-4 rounded-full font-bold text-lg hover:from-[#FFA500] hover:to-[#FFD700] hover:scale-110 transition-all duration-300 animate-float-up-down shadow-2xl"
+            style={{ animationDelay: "1.4s" }}
+            suppressHydrationWarning
+          >
+            🎯 {t("header.findGift")}
+          </a>
+        </div>
+      </div>
+    </section>
+  );
+}
